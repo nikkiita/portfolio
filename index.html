@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Portfolio Nikita</title>
+
+        <link rel="stylesheet" href="styles/superslides.css">
+        <link rel="stylesheet" href="styles/owl.carousel.min.css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Bitter|Playfair+Display:400,900,900i&display=swap"
+            rel="stylesheet">
+
+
+        <link rel="stylesheet" href="styles/style.css">
+
+        <script src="https://kit.fontawesome.com/23e679334f.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <div class="loader">
+            <div class="inner"></div>
+        </div>
+
+        <div id="slides">
+
+            <div class="overlay"></div>
+
+            <div class="slides-container">
+                <img src="images/slide1.jpg" alt="Image of coding desk">
+                <img src="images/slide2.jpg" alt="Image of coding materials">
+                <img src="images/slide3.jpg" alt="image of girl coding">
+            </div>
+
+            <div class="titleMessage">
+                <div class="heading">
+                    <p class="name">Moonen Nikita</p>
+                    <p class="sub typed"></p>
+                </div>
+            </div>
+
+
+            <nav class="slides-navigation">
+                <a href="#" class="next"></a>
+                <a href="#" class="prev"></a>
+            </nav>
+
+        </div>
+
+        <nav id="navigation" class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">Moonen Nikita</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#stats">Stats</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+
+        <div id="about" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img class="aboutImage" src="images/me.jpg" alt="Image of Nikita Moonen">
+                    </div>
+                    <div class="col-md-7">
+                        <h4>My name is Moonen Nikita</h4>
+                        <p>Hi there! I'm Moonen Nikita from Ichtegem, Belgium. I'm 26 years and currently work as a
+                            process operator at
+                            Veurne SnackFoods. I would love to have a job as a Front End Web Developer. I don't have
+                            much
+                            experience, but i would like to get an opportunity to show you what i CAN do. </p>
+                        <p>I started learning programming on my own, i made a few localHost projects that i saw on the
+                            internet.
+                            This is my first live page on the internet. Now i feel convident enough to get a hands on
+                            web developer job.</p>
+                        <!-- <button class="resumeButton"><a href="cv.html" class="cv">curriculum vitae</a></button> -->
+
+                        <div class="cvLink">
+                            <a href="cv.html" class="cv">curriculum vitae</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="skills" class="skillsSection section">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-md-12 text-center">
+                        <h2>TECHNICAL SKILLS</h2>
+                        <p>A representation of my proficiency in each skills</p>
+                    </div>
+                    <div class="owl-carousel owl-theme">
+                        <div class="skill">
+                            <span class="chart" data-percent="85">
+                                <span class="percent">85</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>HTML</h4>
+                            <p>Used in my web based projects</p>
+                        </div>
+                        <div class="skill">
+                            <span class="chart" data-percent="80">
+                                <span class="percent">80</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>CSS</h4>
+                            <p>Used in my web based projects for styling</p>
+                        </div>
+                        <div class="skill">
+                            <span class="chart" data-percent="60">
+                                <span class="percent">60</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>BOOTSTRAP</h4>
+                            <p>My latest projects are with bootstrap. Still finetunning my skill but getting there.</p>
+                        </div>
+
+                        <div class="skill">
+                            <span class="chart" data-percent="67">
+                                <span class="percent">67</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>JavaScript</h4>
+                            <p>This forms a large part of any web based project</p>
+                        </div>
+                        <div class="skill">
+                            <span class="chart" data-percent="45">
+                                <span class="percent">45</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>SQL server</h4>
+                            <p>Still learning the good grasps of SQL server</p>
+                        </div>
+                        <div class="skill">
+                            <span class="chart" data-percent="55">
+                                <span class="percent">55</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>jQuery</h4>
+                            <p>Still learning the good grasps of jQuery</p>
+                        </div>
+                        <div class="skill">
+                            <span class="chart" data-percent="70">
+                                <span class="percent">70</span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                            <h4>FLUTTER Darts</h4>
+                            <p>Used in my cross-platform apps.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="stats" class="statsSection section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="squareItem">
+                            <div class="squareInnerContainer">
+                                <div class="squareIcon">
+                                    <i class="far fa-clock"></i>
+                                </div>
+                                <div class="squareContent">
+                                    <h2 class="counter">6 </h2>
+                                    <h3>Months Experience</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="squareItem">
+                            <div class="squareInnerContainer">
+                                <div class="squareIcon">
+                                    <i class="fas fa-bolt"></i>
+                                </div>
+                                <div class="squareContent">
+                                    <h2 class="counter">10</h2>
+                                    <h3>Apps</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="squareItem">
+                            <div class="squareInnerContainer">
+                                <div class="squareIcon">
+                                    <i class="fas fa-cloud"></i>
+                                </div>
+                                <div class="squareContent">
+                                    <h2 class="counter">6</h2>
+                                    <h3>Websites Made</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="contactSection section">
+            <div class="col-md-12 text-center">
+                <p class="subHeading">Like what you see?</p>
+                <h2>I'd love to hear from you!</h2>
+
+                <div class="contactForm">
+                    <button type="button" id="formButton">GET IN TOUCH!</button>
+                    <form id="contactForm" action="contact-form-handler.php" method="post">
+                        <input type="text" name="name" class="formControl" placeholder="Your Name" required>
+                        <br>
+                        <input type="email" name="email" class="formControl" placeholder="Your Email" required>
+                        <br>
+
+                        <textarea name="message" class="formControl" rows="4" placeholder="Message" required></textarea>
+                        <br>
+                        <input type="submit" class="formControl" id="submit" value="SEND">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div id="portfolio" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <h2>Portfolio</h2>
+                    </div>
+                    <div class="filter">
+                        <ul id="filters">
+                            <li><a href="#" data-filter="*" class="current">ALL</a></li>
+                            <li><a href="#" data-filter=".apps">Apps</a></li>
+                            <li><a href="#" data-filter=".webApps">Web Apps</a></li>
+                            <li><a href="#" data-filter=".websites">Websites</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="itemsContainer">
+                        <ul class="items">
+                            <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                                <div class="item">
+                                    <img src="images/portfolio/thumbnail/work1.jpg" alt="Work in progress">
+                                    <div class="icons">
+                                        <a href="images/portfolio/work.jpg" title="View image" class="openButton"
+                                            data-fancybox data-caption="Work in progress"><i
+                                                class="fas fa-search"></i></a>
+
+                                        <a href="" target="_blank" class="projectLink"><i class="fas fa-link"></i></a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+
+                            <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                                <div class="item">
+                                    <img src="images/portfolio/thumbnail/work1.jpg" alt="Work in progress">
+                                    <div class="icons">
+                                        <a href="images/portfolio/work.jpg" title="View image" class="openButton"
+                                            data-fancybox data-caption="Work in progress"><i
+                                                class="fas fa-search"></i></a>
+
+                                        <a href="" target="_blank" class="projectLink"><i class="fas fa-link"></i></a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+
+                            <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                                <div class="item">
+                                    <img src="images/portfolio/thumbnail/work1.jpg" alt="Work in progress">
+                                    <div class="icons">
+                                        <a href="images/portfolio/work.jpg" title="View image" class="openButton"
+                                            data-fancybox data-caption="Work in progress"><i
+                                                class="fas fa-search"></i></a>
+
+                                        <a href="" target="_blank" class="projectLink"><i class="fas fa-link"></i></a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+
+                            <li onclick="" class="webApps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                                <div class="item">
+                                    <img src="images/portfolio/thumbnail/work1.jpg" alt="Work in progress">
+                                    <div class="icons">
+                                        <a href="images/portfolio/work.jpg" title="View image" class="openButton"
+                                            data-fancybox data-caption="Work in progress"><i
+                                                class="fas fa-search"></i></a>
+
+                                        <a href="" target="_blank" class="projectLink"><i class="fas fa-link"></i></a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+
+                            <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                                <div class="item">
+                                    <img src="images/portfolio/thumbnail/work1.jpg" alt="Work in progress">
+                                    <div class="icons">
+                                        <a href="images/portfolio/work.jpg" title="View image" class="openButton"
+                                            data-fancybox data-caption="Work in progress"><i
+                                                class="fas fa-search"></i></a>
+
+                                        <a href="" target="_blank" class="projectLink"><i class="fas fa-link"></i></a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+
+                            <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                                <div class="item">
+                                    <img src="images/portfolio/thumbnail/work1.jpg" alt="Work in progress">
+                                    <div class="icons">
+                                        <a href="images/portfolio/work.jpg" title="View image" class="openButton"
+                                            data-fancybox data-caption="Work in progress"><i
+                                                class="fas fa-search"></i></a>
+
+                                        <a href="" target="_blank" class="projectLink"><i class="fas fa-link"></i></a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+
+                            <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                                <div class="item">
+                                    <img src="images/portfolio/thumbnail/work1.jpg" alt="Work in progress">
+                                    <div class="icons">
+                                        <a href="images/portfolio/work.jpg" title="View image" class="openButton"
+                                            data-fancybox data-caption="Work in progress"><i
+                                                class="fas fa-search"></i></a>
+
+                                        <a href="" target="_blank" class="projectLink"><i class="fas fa-link"></i></a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+
+                            <li onclick="" class="webApps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                                <div class="item">
+                                    <img src="images/portfolio/thumbnail/work1.jpg" alt="Work in progress">
+                                    <div class="icons">
+                                        <a href="images/portfolio/work.jpg" title="View image" class="openButton"
+                                            data-fancybox data-caption="Work in progress"><i
+                                                class="fas fa-search"></i></a>
+
+                                        <a href="" target="_blank" class="projectLink"><i class="fas fa-link"></i></a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+
+                            <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                                <div class="item">
+                                    <img src="images/portfolio/thumbnail/work1.jpg" alt="Work in progress">
+                                    <div class="icons">
+                                        <a href="images/portfolio/work.jpg" title="View image" class="openButton"
+                                            data-fancybox data-caption="Work in progress"><i
+                                                class="fas fa-search"></i></a>
+
+                                        <a href="" target="_blank" class="projectLink"><i class="fas fa-link"></i></a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+
+                            <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                                <div class="item">
+                                    <img src="images/portfolio/thumbnail/work1.jpg" alt="Work in progress">
+                                    <div class="icons">
+                                        <a href="images/portfolio/work.jpg" title="View image" class="openButton"
+                                            data-fancybox data-caption="Work in progress"><i
+                                                class="fas fa-search"></i></a>
+
+                                        <a href="" target="_blank" class="projectLink"><i class="fas fa-link"></i></a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+
+                            <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                                <div class="item">
+                                    <img src="images/portfolio/thumbnail/work1.jpg" alt="Work in progress">
+                                    <div class="icons">
+                                        <a href="images/portfolio/work.jpg" title="View image" class="openButton"
+                                            data-fancybox data-caption="Work in progress"><i
+                                                class="fas fa-search"></i></a>
+
+                                        <a href="" target="_blank" class="projectLink"><i class="fas fa-link"></i></a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+
+                            <li onclick="" class="webApps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                                <div class="item">
+                                    <img src="images/portfolio/thumbnail/work1.jpg" alt="Work in progress">
+                                    <div class="icons">
+                                        <a href="images/portfolio/work.jpg" title="View image" class="openButton"
+                                            data-fancybox data-caption="Work in progress"><i
+                                                class="fas fa-search"></i></a>
+
+                                        <a href="" target="_blank" class="projectLink"><i class="fas fa-link"></i></a>
+                                    </div>
+                                    <div class="imageOverlay"></div>
+                                </div>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div> -->
+
+        <div class="copyrightSection">
+            <div class="col-md-12 text-center">
+                <p>&copy; Copyright by Moonen Nikita 2019</p>
+            </div>
+        </div>
+
+
+
+        <script src="js/jquery.superslides.min.js"></script>
+        <script src="js/typed.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.easypiechart.min.js"></script>
+        <script src="js/countUp.js"></script>
+        <script src="js/countUp-jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+
+</html>

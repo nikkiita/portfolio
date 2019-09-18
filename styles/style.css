@@ -24,6 +24,38 @@ body{
     background: url(../images/loader.gif) center center no-repeat;
 }
 
+/* navigation bar styles */
+
+#navigation{
+    background-color: #607D8B;
+    padding: 20px 10px;
+    z-index: 100;
+}
+
+#navigation li{
+    padding: 0 10px;
+}
+
+#navigation li a{
+    color: #fff;
+}
+
+.fixedNav #navigation{
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+.navbar-toggler-icon{
+    background: url(../images/icons/menu.png);
+    background-size: 100%;
+}
+
+.navbar-brand, 
+.navbar-brand:hover{
+    color: #fff;
+}
+
 /* Slider and title page styles  */
 .overlay{
     width: 100%;
@@ -75,39 +107,6 @@ body{
 .titleMessage .heading .sub{
     font-size: 23px;
 }
-
-/* navigation bar styles */
-
-#navigation{
-    background-color: #607D8B;
-    padding: 20px 10px;
-    z-index: 100;
-}
-
-#navigation li{
-    padding: 0 10px;
-}
-
-#navigation li a{
-    color: #fff;
-}
-
-.fixedNav #navigation{
-position: fixed;
-top: 0;
-width: 100%;
-}
-
-.navbar-toggler-icon{
-    background: url(../images/icons/menu.png);
-    background-size: 100%;
-}
-
-.navbar-brand, 
-.navbar-brand:hover{
-    color: #fff;
-}
-
 
 /* about page styles */
 .section{

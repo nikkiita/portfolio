@@ -1,0 +1,13 @@
+h4{
+    text-align: center;
+}
+
+.section{
+    padding: 100px 0px;
+}
+
+.werkErvaring,
+.opleiding{
+    background-color: #607D8B;
+    color: #fff;
+}

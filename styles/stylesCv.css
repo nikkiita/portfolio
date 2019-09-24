@@ -1,13 +1,36 @@
-h4{
-    text-align: center;
+/* html{
+    margin:14px;
+} */
+
+body{
+    background-color: rgba(96,125,139,0.3);
 }
 
-.section{
-    padding: 100px 0px;
+.heading{
+    margin: 14px 0px 150px 10px;
 }
 
-.werkErvaring,
-.opleiding{
-    background-color: #607D8B;
+.imageCv{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+}
+
+.container{
+    margin: 0px;
+}
+
+.progress{
+    width: 25%;
+}
+
+/* .copyrightSection{
+    background-color: #000;
     color: #fff;
+    padding: 30px 5px;
 }
+
+.copyrightSection p{
+    margin: 0;
+} */

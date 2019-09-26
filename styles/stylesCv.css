@@ -1,45 +1,140 @@
-/* html{
-    margin:14px;
-} */
-
-body{
-    background-color: rgba(96,125,139,0.3);
+html {
+    background-color: #444;
+    padding: 0 1em;
 }
 
-.sectionTitle{
-    margin: 30px 0px 30px 0px;
+body {
+    background-color: #fff;
+    margin: 1em auto;
+    max-width: 50em;
 }
 
-.heading{
-    margin: 14px 0px 150px 10px;
+p,
+ul {
+    font-family: 'Sanchez', serif;
+    font-size: 12px;
+    letter-spacing: 1px;
 }
 
-.imageCv{
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    margin-right: 50px;
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
-.container{
-    margin: 0px;
+:root {
+    --yellowish: #eeb14f;
+    --dark-purple: #263547;
 }
 
-.progress{
-    width: 40%;
+.container {
+    display: flex;
+    flex-direction: column;
 }
 
-ul#socialMenu li{
-    display: inline;
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--dark-purple);
+    height: 150px;
+}
+
+.logo {
+    background: url('../images/icons/cvLogo.png') no-repeat;
+    width: 32px;
+    height: 32px;
+    margin: 20px;
+}
+
+.title-holder {
+    align-items: center;
+}
+
+.name {
+    color: var(--yellowish);
+    font-family: 'Montserrat', serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.designare {
+    color: #ffffff;
+    font-family: 'Sanchez', serif;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.content-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper {
+    margin: 20px;
+}
+
+.section-left {
+    flex: 1;
+    background-color: var(--yellowish);
+}
+
+.section-left ul {
+    list-style: none;
+    margin-left: -40px;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: bold;
+    font-family: 'Montserrat', serif;
+    letter-spacing: 2px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-family: 'Sanchez', serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+h4 {
+    font-family: 'Sanchez', serif;
+    font-weight: normal;
+    font-size: 0.8em;
+    margin-top: -10px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.section-right {
+    flex: 2;
+}
+
+.section-right .wrapper {
+    margin-left: 50px;
+}
+
+.section-right ul {
+    margin-left: -20px;
+}
+
+.section-right h2 {
+    color: var(--yellowish);
+    font-weight: bold;
 }
 
 .copyrightSection{
-    background-color: #000;
+    background-color: #222;
     color: #fff;
     padding: 30px 5px;
-    text-align: center;
 }
 
 .copyrightSection p{
     margin: 0;
+    text-align: center;
 }

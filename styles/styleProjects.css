@@ -1,0 +1,82 @@
+body{
+    background-color: rgba(96, 125, 139, 0.5);
+    margin: 0;
+    font-size: 18px;
+}
+
+.header{
+    padding: 30px;
+    text-align: center;
+}
+
+#navigation{
+    overflow: hidden;
+}
+
+#navigation a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.content{
+    padding: 16px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content{
+    padding-top: 60px;
+}
+
+
+
+
+.project {
+    width: 300px;
+    height: 500px;
+}
+
+.apps-left{
+    float: left;
+    height: 667px;
+    margin-right: 20px;
+    width: 375px;
+}
+
+.apps-right{
+    float: right;
+    height: 667px;
+    margin-left: 20px;
+    width: 375px;
+}
+
+.span4{
+    margin-right: 10px;
+}
+
+.span4 .img-bmi{
+    float: left;
+}
+
+.span4 .img-left{
+    float: left;
+    height: 350px;
+    margin-right: 20px;
+    width: 700px;
+   
+}
+
+.span4 .img-right{
+    float: right;
+    height: 450px;
+    margin-left: 20px;
+    width: 600px;
+}

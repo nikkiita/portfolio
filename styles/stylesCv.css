@@ -1,10 +1,3 @@
-@media only screen and (max-width:620px) {
-    /* For mobile phones: */
-    * {
-      width:100%;
-    }
-  }
-
 html {
     background-color: rgba(96, 125, 139, 0.5);
     height: 150px;
@@ -148,3 +141,13 @@ h4 {
     margin: 0;
     text-align: center;
 }
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    * {
+      width:100%;
+    } 
+   .content-body {
+  display:block
+}
+  }

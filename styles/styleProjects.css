@@ -66,17 +66,55 @@ body{
     float: left;
 }
 
-.span4 .img-left{
+.span4 .img-passGen{
     float: left;
-    height: 350px;
+    height: 379px;
     margin-right: 20px;
-    width: 700px;
-   
+    width: 714px;
 }
 
-.span4 .img-right{
+.span4 .img-tacky{
     float: right;
-    height: 450px;
+    height: 565px;
+    width: 519px;
     margin-left: 20px;
-    width: 600px;
+}
+
+.span4 .img-drumKit{
+    float: left;
+    height: 458px;
+    margin-right: 20px;
+    width: 800px;
+}
+
+.line{
+    border-bottom: 5px dotted #343A40;
+}
+
+.sectionTitle{
+    margin-left: 500px;
+}
+
+.row{
+    text-align: center;
+}
+
+ button {
+    display: inline-block;
+    color: #343A40;
+    font-size: 18px;
+    border: 1px solid #343A40;
+    border-radius: 2px;
+    background: transparent;
+  }
+
+  button:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #343A40;
+    font-weight: 400;
+}
+
+.details{
+    text-decoration: none;
 }

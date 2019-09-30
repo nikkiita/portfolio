@@ -22,7 +22,7 @@ $(document).ready(function () {
     });
 
     let typed = new Typed(".typed", {
-        strings: ['Web developer.', 'Flutter Darts.'],
+        strings: ['Front-End web developer.', 'Flutter Dart.'],
         typeSpeed: 80,
         loop: true,
         startDelay: 1000,

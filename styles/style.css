@@ -176,6 +176,11 @@ width: 100%;
 }
 
 /* stats page styles */
+
+.statsSection .row{
+    justify-content: center;
+}
+
 .squareItem{
     margin-top: 30px;
     position: relative; 

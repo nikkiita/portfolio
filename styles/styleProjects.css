@@ -36,7 +36,23 @@ body{
     padding-top: 60px;
 }
 
+.span4 .img-passGen{
+    float: left;
+    margin-right: 20px;
+    width: 50%;
+}
 
+.span4 .img-tacky{
+    float: right;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.span4 .img-drumKit{
+    float: left;
+    margin-right: 20px;
+    width: 50%;
+}
 
 
 .project {
@@ -46,16 +62,14 @@ body{
 
 .apps-left{
     float: left;
-    height: 667px;
     margin-right: 20px;
-    width: 375px;
+    width: 25%;
 }
 
 .apps-right{
     float: right;
-    height: 667px;
     margin-left: 20px;
-    width: 375px;
+    width: 25%;
 }
 
 .span4{
@@ -66,26 +80,7 @@ body{
     float: left;
 }
 
-.span4 .img-passGen{
-    float: left;
-    height: 379px;
-    margin-right: 20px;
-    width: 714px;
-}
 
-.span4 .img-tacky{
-    float: right;
-    height: 565px;
-    width: 519px;
-    margin-left: 20px;
-}
-
-.span4 .img-drumKit{
-    float: left;
-    height: 458px;
-    margin-right: 20px;
-    width: 800px;
-}
 
 .line{
     border-bottom: 5px dotted #343A40;

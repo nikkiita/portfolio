@@ -323,10 +323,9 @@ form #submit:hover{
 
 .span4 .img-drumKit{
     float: left;
-    height: 458px;
     margin-right: 20px;
-    width: 800px;
     margin-bottom: 20px;
+    width: 50%;
 }
 
 .span4 .details{

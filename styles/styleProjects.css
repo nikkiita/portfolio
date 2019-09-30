@@ -119,3 +119,9 @@ body{
     text-decoration: none;
     color: #fff;
 }
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    * {
+      width:100%;
+    }

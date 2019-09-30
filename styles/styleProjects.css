@@ -115,6 +115,12 @@ body{
     font-weight: 400;
 }
 
-.details{
+.span4 .details{
     text-decoration: none;
+    color: #343A40;
+}
+
+.span4 .details:hover{
+    text-decoration: none;
+    color: #fff;
 }

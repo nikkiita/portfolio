@@ -111,18 +111,43 @@ body{
 }
 
 .span4 .details{
-    text-decoration: none;
+    display: inline-block;
     color: #343A40;
+    font-size: 18px;
+    border: 1px solid #343A40;
+    border-radius: 2px;
+    background: transparent;
 }
 
 .span4 .details:hover{
     text-decoration: none;
     color: #fff;
+    background-color: #343A40;
+    font-weight: 400;
+}
+
+.copyrightSection{
+    background-color: #000;
+    color: #fff;
+    padding: 30px 5px;
+    margin-top: 50px;
+}
+
+.copyrightSection p{
+    margin: 0;
 }
 
 @media only screen and (max-width:620px) {
     /* For mobile phones: */
     * {
       width:100%;
+    }
+    button{
+        margin: 5px;
+        width: 30%;
+    }
+    .details{
+        margin: 5px;
+        width: 30%;
     }
 }

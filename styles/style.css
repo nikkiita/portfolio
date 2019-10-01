@@ -379,4 +379,12 @@ form #submit:hover{
     * {
       width:100%;
     }
+    .details{
+        margin: 5px;
+        width: 27%;
+        text-align: center;
+    }
+    .projectBtn{
+        width: 55%;
+    }
 }

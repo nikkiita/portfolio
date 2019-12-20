@@ -36,6 +36,26 @@ body{
     padding-top: 60px;
 }
 
+.span4 .img-rpsGame {
+    float: left;
+    margin-right: 20px;
+    width: 60%;
+    height: 100%;
+}
+
+.span4 .img-digitalClock {
+    float: right;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.span4 .img-temp {
+    float: left;
+    margin-right: 20px;
+    width: 40%;
+    border: 1px solid #343A40;
+}
+
 .span4 .img-passGen{
     float: left;
     margin-right: 20px;

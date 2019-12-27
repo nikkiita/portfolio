@@ -150,4 +150,7 @@ h4 {
    .content-body {
   display:block
 }
+.content {
+    width: 80%; 
+}
   }

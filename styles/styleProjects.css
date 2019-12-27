@@ -39,8 +39,7 @@ body{
 .span4 .img-rpsGame {
     float: left;
     margin-right: 20px;
-    width: 60%;
-    height: 100%;
+    width: 50%;
 }
 
 .span4 .img-digitalClock {
@@ -52,8 +51,8 @@ body{
 .span4 .img-temp {
     float: left;
     margin-right: 20px;
-    width: 40%;
-    border: 1px solid #343A40;
+    width: 50%;
+    border: 3px solid #343A40;
 }
 
 .span4 .img-passGen{
@@ -169,5 +168,8 @@ body{
     .details{
         margin: 5px;
         width: 30%;
+    }
+    .sectionTitle{
+        margin-left: 0;
     }
 }

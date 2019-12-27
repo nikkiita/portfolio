@@ -150,6 +150,7 @@ width: 100%;
     margin-left: 10px;
 }
 
+
 .chart{
     position: relative;
     width: 152px;
@@ -157,6 +158,14 @@ width: 100%;
     display: inline-block;
     text-align: center;
 }
+
+.chart .skill-logo {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    height: 75%;
+}
+
 
 .chart canvas{
     position: absolute;
